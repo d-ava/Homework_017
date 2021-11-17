@@ -41,9 +41,9 @@ class MainActivity : AppCompatActivity() {
 
 
         setSupportActionBar(binding.appBarMain.toolbar) //
-        supportActionBar!!.setDisplayHomeAsUpEnabled(false)
-        supportActionBar!!.setHomeButtonEnabled(false)
-        //actionBar!!.setDisplayHomeAsUpEnabled(false)
+        this.supportActionBar?.hide()
+
+
 
 
 
